@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.content-box{
+  display: flex;
+  height: 300px;
+  /* border: 2px solid black; */
+}
+.content-box::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  background-color: #1a66ca;
+  opacity: 10%;
+}
+.img-box{
+  width: 50%;
+height: 300px;
+  position: relative;
+  
+}
+.img-box img{
+  width: 250px;
+  /* border: 2px solid black; */
+  height: 150px;
+}
+.img6{
+ position: absolute;
+ left: 35%;
+ top: 10%;
+}
+.img7{
+  position: absolute;
+  left: 55%;
+  top: 40%;
+ }
+.text-box{
+  width: 50%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.text-box p{
+  width: 400px;
+  font-weight: 600;
+  /* font-family: Montserrat; */
+  font-size: 25px; 
+ font-style: normal;
+font-weight: 600;
+  /* border: 2px solid black; */
+}
+
+.text-box button{
+background-color: #fff;
+width: 200px;
+font-weight: 600;
+background: #FFFFFF;
+border: 1px solid #0F0F10;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin-left: 130px;
+margin-top: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .content-box{
+    height: 300px;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
+   
+  overflow: hidden;
+  /* border: 2px solid black; */
+  }
+  .img-box,.text-box{
+    width: 100%;
+    height: 120px;
+  overflow: hidden;
+
+  }
+  .content-box::before{
+    height: 300px;
+  }
+  .img-box img{
+    width: 150px;
+    /* border: 2px solid black; */
+   
+  overflow: hidden;
+  height: 100px;
+  }
+  .img6{
+    left:10%;
+    top: 0%;
+  overflow: hidden;
+
+  }
+  .img7{
+    left:45%;
+    top: 20%;
+  overflow: hidden;
+
+  }
+  .text-box{
+    width: 100%;
+  overflow: hidden;  
+  align-items: center;
+    /* border: 2px solid black; */
+  }
+  .text-box p{
+    width: 80%;
+    font-weight: 600;
+    font-size: 12.5px; 
+  overflow: hidden;
+    /* border: 2px solid black; */
+  }
+  
+  .text-box button{
+  width: 150px;
+  font-weight: 600;
+ 
+  margin-left: 00px;
+
+  overflow: hidden;
+  /* margin-top: 0px; */
+  }
+  
+}

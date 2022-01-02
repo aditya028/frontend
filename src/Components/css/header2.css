@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.head2 {
+    position: relative;
+    height: calc(100vh - 8rem);
+}
+
+.head2::before {
+    content: "";
+    width: 100%;
+    height: calc(100vh - 8rem);
+    background-image: url("../images/head2.png");
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.cont2 {
+    width: 800px;
+    height: 286px;
+    position: absolute;
+    top: 300px;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.cont2H1 {
+    color: #fff; 
+font-family: Montserrat;
+font-weight: 900;
+font-size: 50px;
+line-height: 129.9%;
+left: 175px;
+top: 10px;
+}
+.cont2Para{
+    
+position: absolute;
+width: 519px;
+height: 58px;
+left: 188px;
+top: 150px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+.cont2Btn{
+    position: absolute;
+    top: 200px;
+    left: 191px;
+    margin-top: 2em;
+    font-weight: 600;
+    padding: .5em .8em;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none
+}

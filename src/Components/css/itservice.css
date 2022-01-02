@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.techsupport{
+  height: calc(3755px);
+}
+
+.empty {
+  height: 4rem;
+}
+
+.itsolution {
+  background-image: linear-gradient(90deg, #1a66ca 0%, #ffffff 99.13%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  justify-content: center;
+  position: relative;
+
+  width: 100%;
+  height: 3100px;
+  left: 0px;
+}
+.webIcon{
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+}
+.mobileIcon{
+   position: absolute;
+  top: 60px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.digitalIcon{
+  position: absolute;
+  top: 45px;
+  left: 75px;
+  width: 60px;
+  height: 60px; 
+}
+
+.uxIcon{ position: absolute;
+  top: 45px;
+  left: 75px;
+  width: 60px;
+  height: 60px; }
+.productIcon{ position: absolute;
+  top: 45px;
+  left: 75px;
+  width: 60px;
+  height: 60px; }
+.logoIcon{ position: absolute;
+  top: 60px;
+  left: 85px;
+  width: 60px;
+  height: 60px; }
+.graphicIcon{ position: absolute;
+  top: 45px;
+  left: 85px;
+  width: 60px;
+  height: 60px; }
+.itsolutionH1 {
+  position: absolute;
+  width: 549px;
+  height: 118px;
+  left: 500px;
+  top: 50px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+
+  color: #000000;
+}
+.itsolutionimg1 {
+  position: absolute;
+  width: 455px;
+  height: 303.33px;
+  left: 920px;
+  top: 280px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.itsolutionimg2 {
+  position: absolute;
+  width: 466px;
+  height: 315px;
+  left: 130px;
+  top:650px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.itsolutionimg3 {
+  position: absolute;
+  width: 455px;
+  height: 303.33px;
+  left: 920px;
+  top: 1050px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+
+.itsolutionimg4 {
+  position: absolute;
+  width: 455px;
+  height: 341.46px;
+  left: 130px;
+  top: 1490px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.itsolutionimg5 {
+  position: absolute;
+  width: 455px;
+  height: 303.33px;
+  left: 920px;
+  top: 1920px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.itsolutionimg6 {
+  position: absolute;
+  width: 455px;
+  height: 303.33px;
+  left: 130px;
+  top: 2330px;
+}
+.itsolutionimg7 {
+  position: absolute;
+  width: 455px;
+  height: 303.33px;
+  left: 900px;
+  top: 2720px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+}
+.itsolutioncard1 {
+  position: relative;
+  width: 578px;
+  height: 250px;
+  left: 80px;
+  top: 300px;
+  background: #1a66ca;
+
+  box-shadow: 0px 4px 10px #000;
+
+  display: flex;
+  flex-direction: column;
+}
+.card1H1 {
+  position: absolute;
+  width: 500px;
+
+  left: 140px;
+  top: 45px;
+
+  font-size: 42px;
+
+  color: #fff;
+}
+.card1p1 {
+  position: absolute;
+  width: 467px;
+  height: 132px;
+  left: 80px;
+  top: 130px;
+  color: #ffffff;
+}
+
+.itsolutioncard2 {
+  position: relative;
+  width: 578px;
+  height: 250px;
+  left: 850px;
+
+  top: 430px;
+  background: #1a66ca;
+
+  box-shadow: 0px 4px 10px #000;
+
+  display: flex;
+  flex-direction: column;
+}
+.card2H1 {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  left: 80px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+  /* border: 2px solid black; */
+}
+.card2p1 {
+  position: absolute;
+  width: 467px;
+  height: 132px;
+  left: 80px;
+  top: 130px;
+}
+
+.itsolutioncard3 {
+  position: relative;
+  width: 578px;
+  height: 250px;
+  left: 80px;
+  top: 575px;
+  background: #1a66ca;
+  box-shadow: 0px 4px 10px #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.card3H1 {
+  /* border: 2px solid black; */
+  position: absolute;
+  width: 400px;
+  height: 59px;
+  left: 120px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 59px;
+  text-align: center;
+  /* color: #000000; */
+}
+.card3p1 {
+  position: absolute;
+  width: 467px;
+  height: 132px;
+  left: 80px;
+  top: 130px;
+}
+
+.itsolutioncard4 {
+  position: relative;
+  width: 578px;
+  height: 250px;
+  left: 850px;
+  top: 770px;
+  background: #1a66ca;
+
+  box-shadow: 0px 4px 10px #000;
+
+  display: flex;
+  flex-direction: column;
+}
+.card4H1 {
+  position: absolute;
+  width: 300px;
+  height: 59px;
+  left: 150px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+.card4p1 {
+  position: absolute;
+  width: 467px;
+  height: 132px;
+  left: 80px;
+  top: 150px;
+}
+
+.itsolutioncard5 {
+  position: relative;
+  width: 578px;
+  height: 250px;
+  left: 80px;
+  top: 950px;
+  background: #1a66ca;
+
+  box-shadow: 0px 4px 10px #000;
+color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.card5H1 {
+  position: absolute;
+  width: 500px;
+  height: 59px;
+  left: 80px;
+  top: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 59px;
+  text-align: center;
+  
+}
+.card5p1 {
+  position: absolute;
+  width: 467px;
+  height: 132px;
+  left: 80px;
+  top: 130px;
+}
+
+.itsolutioncard6 {
+  position: relative;
+  width: 578px;
+  height: 250px;
+  left: 850px;
+  top: 1100px;
+  background: #1a66ca;
+
+  box-shadow: 0px 4px 10px #000;
+
+  display: flex;
+  flex-direction: column;
+}
+.card6H1 {
+  position: absolute;
+  width: 500px;
+
+  left: 155px;
+  top: 45px;
+
+  font-size: 42px;
+
+  /* color: #fff; */
+}
+.card6p1 {
+  position: absolute;
+  width: 467px;
+  height: 132px;
+  left: 80px;
+  top: 130px;
+  /* color: #ffffff; */
+}
+
+.itsolutioncard7 {
+  position: relative;
+  width: 578px;
+  height: 250px;
+  left: 80px;
+  top: 1250px;
+  background: #1a66ca;
+
+  box-shadow: 0px 4px 10px #000;
+
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.card7H1 {
+  position: absolute;
+  width: 500px;
+
+  left: 140px;
+  top: 45px;
+
+  font-size: 42px;
+
+}
+.card7p1 {
+  position: absolute;
+  width: 467px;
+  height: 132px;
+  left: 80px;
+  top: 130px;
+  /* color: #080808; */
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.startup{
+    height: 740px;  
+}
+.containers{
+    position: relative;
+width: 1554px;
+height: 740px;
+background: linear-gradient(90deg, rgba(26, 102, 202, 0.29) 2.16%, rgba(26, 102, 202, 0.29) 95.88%);
+}
+
+.left-box{
+    position: absolute;
+width: 562px;
+height: 619px;
+left: 180px;
+top:80px ;
+
+background: #FFFFFF;
+box-shadow: -18px -18px 20px rgba(255, 255, 255, 0.8), 18px 18px 20px rgba(209, 217, 230, 0.25);
+border-radius: 20px;
+}
+
+.right-box{
+    position: absolute;
+width: 562px;
+height: 619px;
+left: 800px;
+top:80px ;
+
+background: #FFFFFF;
+box-shadow: -18px -18px 20px rgba(255, 255, 255, 0.8), 18px 18px 20px rgba(209, 217, 230, 0.25);
+border-radius: 20px;
+}
+.img8{
+   
+width: 562px;
+height: 361px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+}
+
+.img9{
+width: 562px;
+height: 361px;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 20px;
+}
+.left-box h1{
+    width: 200px;
+height: 62px;
+left: 200px;
+top: 400px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+
+color: #3A3232;
+}
+
+.left-box p{
+    width: 510px;
+height: 58px;
+margin-top:85px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+padding: 35px;
+color: #000000;
+margin-left:20px;
+
+}
+
+.right-box h1{
+    width: 367px;
+height: 59px;
+left: 120px;
+top: 400px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 59px;
+color: #3A3232;
+}
+
+.right-box p{
+    width: 512px;
+height: 87px;
+margin-top: 90px;
+padding: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
